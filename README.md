@@ -18,7 +18,9 @@ Running with tmux on Linux
 - Create a `.env` file in the root directory with `nano .env` (See [dotenv](#dotenv) below)
 - Start the detached tmux session with `tmux new -d -s reactbot`
 - Send the start command to the tmux session with `tmux send -t reactbot "python3 react.py" ENTER`
-- View the bot using `tmux a -t reactbot`
+- Attach to the tmux window using `tmux a -t reactbot`
+- Dettach to the tmux window with Ctrl B+A
+- Kill the tmux session with `tmux send -t reactbot exit ENTER`
 
 ## Dotenv
 Example `.env` file:
