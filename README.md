@@ -8,6 +8,7 @@ Quick [discord.py](https://github.com/Rapptz/discord.py) bot to add reactions to
 ## Setup
 Running normally
 - Clone the repo with `git clone https://github.com/TerraTrapezium/ModSuggestionsBot.git`
+- Download the dependencies with `pip install -r dependencies.txt`
 - Create a `.env` file in the root directory (See [dotenv](#dotenv) below)
 - Run the bot using `py react.py`
 
