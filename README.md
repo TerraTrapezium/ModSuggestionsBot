@@ -1,7 +1,7 @@
 # Overview
-![GitHub repo size](https://img.shields.io/github/repo-size/terratrapezium/modsuggestionsbot)
-![GitHub](https://img.shields.io/github/license/terratrapezium/modsuggestionsbot)
-![GitHub last commit](https://img.shields.io/github/last-commit/terratrapezium/modsuggestionsbot)
+![GitHub repo size](https://img.shields.io/github/repo-size/TerraTrapezium/ModSuggestionsBot)
+![GitHub](https://img.shields.io/github/license/TerraTrapezium/ModSuggestionsBot)
+![GitHub last commit](https://img.shields.io/github/last-commit/TerraTrapezium/ModSuggestionsBot)
 
 Quick [discord.py](https://github.com/Rapptz/discord.py) bot to add reactions to every message sent in a channel, used for gathering tModLoader mod suggestions.
 
