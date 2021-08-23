@@ -1,2 +1,2 @@
 #!/bin/bash
-screen -dm -S modreactbot py react.py
+screen -dm -S reactbot py react.py

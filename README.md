@@ -6,9 +6,18 @@
 Quick [discord.py](https://github.com/Rapptz/discord.py) bot to add reactions to every message sent in a channel, used for gathering tModLoader mod suggestions.
 
 ## Setup
+Running normally
 - Clone the repo with `git clone https://github.com/TerraTrapezium/ModSuggestionsBot.git`
 - Create a `.env` file in the root directory (See [dotenv](#dotenv) below)
 - Run the bot using `py react.py`
+
+Running with tmux on Linux
+- Clone the repo with `git clone https://github.com/TerraTrapezium/ModSuggestionsBot.git && cd ModSuggestionsBot`
+- Download the dependencies with `pip install -r dependencies.txt`
+- Create a `.env` file in the root directory with `nano .env` (See [dotenv](#dotenv) below)
+- Start the detached tmux session with `tmux new -d -s reactbot`
+- Send the start command to the tmux session with `tmux send -t reactbot "python3 react.py" ENTER`
+- View the bot using `tmux a -t reactbot`
 
 ## Dotenv
 Example `.env` file:
